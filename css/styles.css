@@ -1,0 +1,285 @@
+body {
+  font-family: 'Slabo 27px', serif;
+}
+
+header {
+  background-color: #824e4e;
+  color: whitesmoke;
+  padding: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+}
+
+#header-text {
+  display: inline;
+  position: relative;
+  left: 100px;
+}
+
+nav {
+  float: right;
+  position: relative;
+  right: 100px;
+  top: 5px;
+}
+
+nav > a:link, nav > a:visited {
+  font-size: 1.15em;
+  margin: 10px 15px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+nav > a:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+nav > a:active {
+  font-weight: bold;
+  text-decoration: none;
+  color: #c2ae95;
+}
+
+.fade {
+  opacity: 1;
+}
+
+footer {
+  text-align: center;
+  vertical-align: center;
+  padding: 10px;
+}
+
+#page-footer {
+  background-color: #7f825f;
+  color: whitesmoke;
+  position: relative;
+  bottom: 0;
+}
+
+#footer-text {
+  font-size: 1.05em;
+  position: relative;
+  top: 5px;
+}
+
+#footer-icons {
+  text-align: center;
+}
+
+#footer-icons > a {
+  display: inline-block;
+}
+
+#footer-icons > a:link, #footer-icons > a:visited {
+  color: #c2ae95;
+}
+
+#footer-icons > a:hover, #footer-icons > a:active {
+  color: #824e4e;
+}
+
+.fa-github-square, .fa-linkedin-square {
+  vertical-align: inherit;
+  font-size: 36px;
+  margin: 0px 5px;
+}
+
+.fa-stack {
+  margin: 0px 5px;
+  text-align: center;
+  vertical-align: middle;
+  width: 30.85px;
+  height: 36px;
+  line-height: inherit;
+  bottom: 9px;
+}
+
+.fa-square {
+  font-size: 36px;
+}
+
+.fa-file-code-o {
+  font-size: 24px;
+}
+
+.fa-inverse {
+  color: #7f825f;
+}
+
+section {
+  display: block;
+  padding: 30px 30px;
+}
+
+#photo {
+  text-align: center;
+  float: left;
+  width: 35%;
+  height: 400px;
+  background-color: #c2ae95;
+  padding-right: 0px;
+}
+
+.img-thumbnail {
+  height: 325px;
+  resize: both;
+}
+
+#info {
+  text-align: center;
+  float: right;
+  width: 65%;
+  height: 400px;
+  background-color: #c2ae95;
+  padding-left: 0px;
+}
+
+#buzzwords {
+  font-size: 2.25em;
+}
+
+#images {
+  text-align: center;
+}
+
+#images > img {
+  height: 65px;
+  margin: 5px;
+}
+
+#quote {
+  background-color: #66777d;
+  text-align: center;
+  color: floralwhite;
+  font-family: 'Special Elite', cursive;
+}
+
+.quote {
+  font-size: 1.25em;
+}
+
+.byline {
+  font-size: 1.05em;
+}
+
+#java-code {
+  background-image: url('../img/background.jpg');
+}
+
+code {
+  display: block;
+  width: 80%;
+  padding-top: 25px;
+  white-space: pre-wrap;
+  background-color: ghostwhite;
+  color: black;
+  font-size: 1.05em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.collapsible {
+  margin-left: -23px;
+}
+
+.symbol {
+  display: inline;
+  font-size: 1.5em;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  position: relative;
+}
+
+.method-body {
+  display: none;
+}
+
+.method-body.expand {
+  display: inline;
+}
+
+#home, #contact {
+  background-image: url('../img/background.jpg');
+}
+
+.container {
+  overflow: hidden;
+}
+
+#contact-form {
+  background-color: #c2ae95;
+  float: left;
+  width: 60%;
+  padding-right: 65px;
+}
+
+#contact-form > h2 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+#contactForm {
+  text-align: center;
+  margin-left: 40px;
+}
+
+form > label {
+  font-size: 1.15em;
+  font-weight: normal;
+}
+
+input.form-control {
+  width: 300px;
+}
+
+label.to-right {
+  position: relative;
+  left: 50px;
+}
+
+label.to-left {
+  position: relative;
+  left: -50px;
+}
+
+.alert {
+  text-align: center;
+}
+
+#contact-info {
+  background-color: #66777d;
+  color: whitesmoke;
+  float: right;
+  width: 40%;
+  font-size: 2.5em;
+  overflow: hidden;
+}
+
+#contact-info > ul {
+  position: relative;
+  left: 75px;
+}
+
+#contact-info > ul > li {
+  list-style-type: none;
+}
+
+#contact-info > ul > li > a:link, #contact-info > ul > li > a:visited, #contact-info > ul > li > a:active {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+#contact-info > ul > li > a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+div.clear-float {
+  clear: both;
+}
