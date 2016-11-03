@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Anastasia M. Klonowski Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./img/favicon.ico">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px|Special+Elite" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h2 id="header-text">Anastasia M. Klonowski</h2>
+      <nav>
+        <a data-toggle="tab" href="#home">Home</a>
+        <a data-toggle="tab" href="#about-me">About Me</a>
+        <a href="./aklonowski_resume.pdf" target="_blank">View My Re&#769;sume</a>
+        <a data-toggle="tab" href="#contact">Contact Me</a>
+      </nav>
+    </header>
+
+    <div class="tab-content">
+      <div id="home" class="tab-pane fade in active">
+        <div class="container">
+          <section id="photo">
+            <img src="./img/professional_pic.jpg" class="img-thumbnail img-responsive" alt="Anastasia Klonowski" height="350px">
+          </section>
+          <section id="info">
+            <br>
+            <p id="buzzwords">programmer | developer | engineer</p>
+            <br>
+            <div id="images">
+              <img src="./img/script_pitt.png" alt="University of Pittsburgh">
+              <img src="./img/compunetix_logo.png" alt="compunetix inc.">
+              <img src="./img/pitt_swe.png" alt="Pitt Society of Women Engineers">
+              <img src="./img/pitt_wics.jpg" alt="Pitt Women in Computer Science Club">
+              <img src="./img/she_innovates.png" alt="SheInnovates">
+              <img src="./img/steel_hacks.png" alt="SteelHacks">
+              <img src="./img/randall_big_idea.png" alt="Randall Family Big Idea Competition">
+              <img src="./img/strength10her_logo.png" alt="strength10her">
+            </div>
+          </section>
+          <div class="clear-float"></div>
+        </div>
+        <section id="quote">
+          <p class="quote">“…because nerds like us are allowed to be unironically enthusiastic about stuff… Nerds are allowed to love stuff, like jump-up-and-down-in-the-chair-can’t-control-yourself love it. Hank, when people call people nerds, mostly what they’re saying is ‘you like stuff.’ Which is just not a good insult at all. Like, ‘you are too enthusiastic about the miracle of human consciousness’.”</p>
+          <p class="byline">John Green</p>
+        </section>
+      </div>
+      
+      <div id="about-me" class="tab-pane fade">
+        <section id="java-code">
+          <code>
+          package universe.humans;
+          import universe.Knowledge.*;
+          import universe.Energy.*;
+          import universe.Happiness.*;
+
+          public class Anastasia {
+            public String name = "Anastasia Klonowski";
+            public int age = 20;
+            public String university = "University of Pittsburgh";
+            public String school = "Swanson School of Engineering";
+            public String major = "Computer Engineering";
+
+            public Anastasia() {
+              eat("breakfast");
+              sleep(9);
+              read();
+              code();
+            }
+
+            <span class="collapsible"><button class="symbol">&plus;</button>public Energy eat(String meal) {
+            <span class="method-body">  if (meal.equals("breakfast")) {
+                String food = {"waffles", "pancakes", "bagel", "cereal"};
+              }
+              return true;
+            }</span></span>
+            
+            <span class="collapsible"><button class="symbol">&plus;</button>public Energy sleep(int hours) {
+            <span class="method-body">  int average = 8;
+              if (hours &lt; average) {
+                return false;                
+              } else if (hours &gt;&equals; average) {
+                return true;
+              }
+            }</span></span>
+            
+            <span class="collapsible"><button class="symbol">&plus;</button>public Knowledge read() {
+            <span class="method-body">  String myBooks[] = {"Pride and Prejudice", "Fangirl", "The Hobbit", "The Once and Future King", "Nimona"};
+              String favoriteAuthors[] = {"Jane Austen", "J.R.R. Tolkien", "J.K. Rowling", "Neil Gaiman"};
+              if (!haveFreeTime) {
+                myBooks = textbooks;
+              }
+              return true;
+            }</span></span>
+            
+            <span class="collapsible"><button class="symbol">&plus;</button>public Happiness code() {
+            <span class="method-body">  String languages = {"Java", "C", "C#", "HTML", "CSS", "JavaScript"};
+              return <i class="fa fa-smile-o"></i>;
+            }</span></span>
+          }
+          </code>
+        </section>
+      </div>
+      
+      <div id="contact" class="tab-pane fade">
+        <div id="contact-container" class="container">
+          <section id="contact-form">
+            <h2>Send a Message</h2>
+            <form action="mailto:amk226@pitt.edu" method="post" enctype="text/plain" id="contactForm" class="form-inline">
+              <label for="name" class="to-left">Name:&nbsp;
+                <input type="text" class="form-control" name="name">
+              </label>
+              <label for="email" class="to-right">Email:&nbsp;
+                <input type="email" class="form-control" name="email">
+              </label>
+              <br><br>
+              <textarea class="form-control" name="message" rows="6" cols="80"></textarea>
+              <br><br>
+              <input id="submit-btn" type="submit" class="form-control" value="Send Message">
+            </form>
+          </section>
+          <section id="contact-info">
+            <ul>
+              <li><a href="mailto:amk226@pitt.edu"><i class="fa fa-envelope"></i>&nbsp;&nbsp;Email</a></li>
+              <li><a href="https://www.linkedin.com/in/anastasia-klonowski-729707107"target="_blank"><i class="fa fa-linkedin"></i>&nbsp;&nbsp;LinkedIn</a></li>
+              <li><a href="https://www.slack.com" target="_blank"><i class="fa fa-slack"></i>&nbsp;&nbsp;Slack</a></li>
+              <li><a href="https://www.reddit.com/user/anamklone/" target="_blank"><i class="fa fa-reddit-alien"></i>&nbsp;&nbsp;Reddit</a></li>
+            </ul>
+          </section>
+          <div class="clear-float"></div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="page-footer">
+      <div id="footer-icons">
+        <a href="https://github.com/anamklone" target="_blank"><i class="fa fa-github-square"></i></a>
+        <a href="https://www.linkedin.com/in/anastasia-klonowski-729707107" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+        <a href="https://devpost.com/amk226" target="_blank"><span class="fa-stack"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-file-code-o fa-stack-1x fa-inverse"></i></span></a>
+      </div>
+      <p id="footer-text">
+        &copy; 2016; aklonowski
+      </p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
